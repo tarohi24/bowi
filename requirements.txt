@@ -1,0 +1,15 @@
+dataclasses-json
+nltk
+numpy
+pandas
+scipy
+tqdm
+gensim
+# dev
+mypy
+wemake-python-styleguide
+flake8-pytest-style
+pytest
+pytest-cov
+pytest-randomly
+tomlkit

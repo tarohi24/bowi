@@ -1,3 +1,6 @@
+# CAUTION: This is not supported yet.
+# See #1 for the progress.
+
 [build-system]
 requires = ["poetry>=1.0"]
 build-backend = "poetry.masonry.api"
@@ -24,8 +27,22 @@ classifiers = [
   "Development Status :: 3 - Alpha",
 ]
 
+packages = [
+    { include = "bowi" },
+]
+
 [tool.poetry.dependencies]
 python = "^3.8"
+dataclasses-json = "^0.4.2"
+nltk = "^3.4.5"
+numpy = "^1.18.2"
+pandas = "^1.0.3"
+scipy = "^1.4.1"
+tqdm = "^4.45.0"
+
+# LDA
+gensim = "^3.8.1"
+
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.770"

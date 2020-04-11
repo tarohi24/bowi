@@ -7,6 +7,6 @@ Bag-Of-Words-Improved
 ## Installation (development)
 
 ```bash
-pip install poetry  # if not installed
-poetry install
+pip install -r requirements.txt
+pip install --editable .
 ```
